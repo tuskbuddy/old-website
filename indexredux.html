@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="ericwengerd.css">
 
     <!-- loading header and footer -->
-    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script> 
         $(document).ready( function() {
-            $('#header').load('include_header.html'); 
+            $('#header').load('include_header.html');
+            $('#footer').load('include_footer.html');
         });
     </script>
 
@@ -24,7 +25,12 @@
 <body>
 
     <!-- header -->
-    <span id="header">.</div>
+    <div class="hlinetop"></div>    
+    <div id="header">.</div>
+    <div class="hlinebottom"></div>
+    <div class="bodybackground" style="background-color:#e6e6e6;">
+        
+        <br /><br /><br />
 
         <center>
             <h2 style="padding-top:0px;">HELLO AND WELCOME<span style="font-size:30px;"></span>!</h2>
@@ -83,15 +89,8 @@
             </div>
             <br /><br />
     </div>
-    <table class="footer">
-        <tr class="footer">
-            <td class="footer">
-                <p class="copyright">&#169; 2019 eric wengerd. all rights, okays, and atta boys reserved.</p>
-            </td>
-            <td style="text-align:right" class="footer">
-                    <p class="socialmedia" style="padding-right:30px;"><a href="https://www.facebook.com/eric.wengerd" class="socialmedia">B</a><a href="https://www.twitter.com" class="socialmedia">C</a><a href="https://www.linkedin.com/" class="socialmedia">H</a></p>
-            </td>
-        </tr>
-    </table>
+
+    <!-- footer -->
+    <div id="footer"></div>
 </body>
 </html>

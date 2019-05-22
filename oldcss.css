@@ -41,8 +41,6 @@
             margin: 0;
             word-spacing:6px;
         }
-      
-
         @media only screen and (max-device-width:480px) {
             .ericwengerd {
                 font-family: 'Josefin Sans';
@@ -60,9 +58,8 @@
         }
 
         h2 {
-            font-family: 'Raleway';
-            font-size: 46px;
-            font-weight: 150;
+            font-family: 'Leixo';
+            font-size: 35px;
             color: #332214;
             letter-spacing: -2px;
             margin: 0;
@@ -86,11 +83,11 @@
         }
         a {
             text-decoration: none;            
-            color: #144d11;
+            color: white;
         }
         a:hover {
             text-decoration: none;
-            color: #9b7b56;
+            color: rgba(177, 238, 159, 0.95);
         }
         p {
             font-family: 'Noto Sans JP';
@@ -141,11 +138,10 @@
             position: absolute;
             bottom: 0;
             left: 0;
-            padding-top:-5px;
         }
 
         .footer {
-            background-color:#144d11;
+            background-color:#155913;
             margin: 0;
             padding: 0;
             width: 100%;
@@ -155,7 +151,7 @@
         .socialmedia {
             font-family: 'social_shapes';
             color:#d8c58b;
-            font-size:43px;
+            font-size:50px;
             padding-top: 7px;
             padding-bottom: 7px;
             margin: 0;
@@ -168,18 +164,18 @@
             letter-spacing: 0px;
             padding-left:30px;
             font-family: 'Baron Neue';
-            font-size:12.5px;
+            font-size:14px;
             letter-spacing: 2px;
         }
         .hlinetop {
-            border-bottom:4px solid #234822;
+            border-bottom: 5px solid #234822;
             padding-bottom: 0px;
             padding-top: 0px;
             background-color: #e6e6e6;
         }
         .hlinebottom {
-            border-bottom: 4px solid #234822;
+            border-bottom: 5px solid #234822;
             padding-bottom: 5px;
-            padding-top: -3px;
+            padding-top: 7px;
             background-color: #e6e6e6;
         }
