@@ -7,3 +7,6 @@
 # Temporary files
 .sass-cache/
 .jekyll-metadata
+
+# Old site
+/old-site
